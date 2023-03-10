@@ -1,0 +1,43 @@
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Bungee', cursive;
+}
+
+h2{
+    font-family: 'Bungee', cursive;
+}
+
+h3{
+    font-family: 'Bungee', cursive;
+}
+
+h5{
+    font-family: 'Bungee', cursive;
+  
+}
+
+/* Cards */
+
+.cont-history{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* imagen */
+
+.cont-center-hist{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.conthist-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}

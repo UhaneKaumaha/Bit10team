@@ -1,0 +1,56 @@
+/* Page Navegacion */
+.pokedex .py-4{
+    font-family: 'Times New Roman', Times, serif;
+    background: #Cc0000;
+    display: flex;justify-content: space-evenly;
+}
+.pokedex .mx-2{
+    border-radius: 15px ;
+}
+
+/*Page Index */
+.pokedex .card{
+    justify-content: center;
+    box-shadow: 1px 1px 5ppx gray;
+    margin:5px
+}
+
+.pokedex .cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+
+.pokedex .cards-item{
+    display: flex;
+    padding: 1rem;
+}
+
+.pokedex .card-header{
+    justify-content: center;
+    display: flex;
+    background: #dc3545;
+    color: aliceblue;
+
+}
+.pokedex .card-body{
+    justify-content: center;
+    display: flex;
+}
+
+.pokedex .card-footer{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .img-pokeball{
+        display: none;
+    }
+  }
